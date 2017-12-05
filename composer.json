@@ -21,5 +21,18 @@
         "files": [
             "src/openpay/Openpay.php"
         ]
+    },
+    "require": {
+        "openpay/sdk": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Intagono\\Openpay\\OpenpayServiceProvider"
+            ],
+            "aliases": {
+                "IntagonoOpenpay": "Intagono\\Openpay\\OpenpayFacade"
+            }
+        }
     }
 }
