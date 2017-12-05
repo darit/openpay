@@ -17,10 +17,7 @@
     "autoload": {
         "psr-4": {
             "Intagono\\Openpay\\": "src/"
-        },
-        "files": [
-            "src/openpay/Openpay.php"
-        ]
+        }
     },
     "require": {
         "openpay/sdk": "dev-master"
